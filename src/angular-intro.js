@@ -1,6 +1,6 @@
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
-        define(["angular", "intro"], factory);
+        define(["angular", "intro.js"], factory);
     } else if (typeof exports === 'object') {
         module.exports = factory(require('angular'), require('intro'));
     } else {
